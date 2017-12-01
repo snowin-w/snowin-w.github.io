@@ -1,1 +1,9 @@
 theme: jekyll-theme-architect
+title: 神経症snowin の社会人生活
+description: ヘトヘトの人生で光を探して
+paginate: 5
+exclude: [org/]
+defaults:
+  -
+    values:
+      layout: "default"
