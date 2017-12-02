@@ -1,0 +1,9 @@
+<hr>
+<h3>コメント待ってます</h3>
+このブログを読んだ感想，質問など，何かあれば遠慮なくお便り下さい
+<form method="POST" action="https://formspree.io/snowin.w@gmail.com">
+    <input type="email" name="email" placeholder="あなたのメールアドレス">
+    <input type="hidden" name="_subject" value="{{ page.title  }}: New submission!" />
+    <textarea name="message" placeholder="メッセージ"></textarea>
+    <button type="submit">送信</button>
+</form>
