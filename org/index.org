@@ -3,6 +3,8 @@
 ---
 #+END_EXPORT
 * 自己紹介
+  #+HTML: <img src="{{ site.url }}/tiredSalaryMan.png" alt="tiredSalaryMan.png" width="100px" />
+
   高校1年のとき，強迫性障害を患った．この病気に関していろいろあったが，志望した大学，大学院を
   卒業，志望していた企業に就職も決まった．しかし，これを患った状態での会社生活は想像以上に
   大変だった…
