@@ -2,7 +2,7 @@ theme: jekyll-theme-architect
 title: 神経症snowin の社会人生活
 description: ヘトヘトの人生をどう生きるか
 paginate: 5
-exclude: [org/]
+exclude: [org/, vendor/]
 plugins:
   - jekyll-feed
 defaults:
