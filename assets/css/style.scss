@@ -59,3 +59,20 @@ header { font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial,
 #main-content h4 { font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, sans-serif, serif; }
 #main-content h5 { font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, sans-serif, serif; }
 #main-content h6 { font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, sans-serif, serif; }
+
+/* ▼キャプション付き画像全体を囲むボックスの装飾 */
+figure {
+    display: inline-block;   /* インラインブロック化 */
+    margin: 0px 3px 7px 0px; /* 外側に余白を追加(※右に3px・下に7px) */
+    /* background-color: #ccc;  /\* 背景色 *\/ */
+}
+/* ▼画像に対する装飾 */
+figure img {
+    display: block;          /* 余計な余白が出ないようにする */
+    margin: 0px 0px 3px 0px; /* 下側にだけ3pxの余白を追加 */
+}
+/* ▼キャプションに対する装飾 */
+figcaption {
+    font-size: 0.9em;        /* 文字サイズを90%に */
+    text-align: center;      /* 中身をセンタリング */
+}
